@@ -10,6 +10,7 @@ This repository is a practical starter kit for developers who want to test Route
 - `packages/python-routerbase`: a small Python SDK starter with tests and a CLI.
 - `packages/jsr-routerbase`: a JSR-ready TypeScript package draft.
 - `packages/go-routerbase`: a Go SDK starter with tests and a runnable example.
+- `packages/ruby-routerbase`: a RubyGems-ready client gem starter with tests and a CLI.
 - `examples/docker`: a tiny containerized prompt runner example.
 - `.github/workflows/ci.yml`: CI for Node and Python tests.
 - `docs`: rollout plan, publishing checklist, and maintenance notes.
@@ -74,6 +75,19 @@ response, err := client.ChatCompletion(context.Background(), routerbase.ChatComp
 })
 ```
 
+## Ruby Example
+
+```ruby
+require "routerbase"
+
+client = RouterBase::Client.new(api_key: ENV.fetch("ROUTERBASE_API_KEY"))
+response = client.chat_completion(
+  messages: [
+    { role: "user", content: "Explain RouterBase in one sentence." }
+  ]
+)
+```
+
 ## Published npm Packages
 
 These companion packages are already published:
@@ -87,8 +101,9 @@ These companion packages are already published:
 ## SDK Starters
 
 - Go module: `github.com/RouterBase/routerbase-examples/packages/go-routerbase`
-- Python package draft: `routerbase-client`
+- PyPI package draft: `routerbase-client`
 - JSR package draft: `@routerbase/client`
+- RubyGems package draft: `routerbase-client`
 
 ## Links
 

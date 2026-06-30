@@ -90,3 +90,6 @@ Status:
 - Go tests added and wired into CI.
 - Module path prepared for pkg.go.dev discovery:
   `github.com/RouterBase/routerbase-examples/packages/go-routerbase`.
+- Ruby gem starter added at `packages/ruby-routerbase`.
+- Ruby tests and gem build added to CI.
+- Manual RubyGems publish workflow added: `.github/workflows/publish-rubygems.yml`.

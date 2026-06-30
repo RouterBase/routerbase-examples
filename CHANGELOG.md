@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0 - 2026-06-30
+
+- Added a RubyGems-ready `routerbase-client` gem starter.
+- Added Ruby client, CLI, tests, and gem build verification.
+- Added a manual `Publish RubyGems` workflow.
+
 ## 0.2.0 - 2026-06-30
 
 - Added a Go SDK starter with chat completions, model listing, tests, and an example.

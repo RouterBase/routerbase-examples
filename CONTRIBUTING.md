@@ -23,6 +23,14 @@ cd packages/go-routerbase
 go test ./...
 ```
 
+Run Ruby checks from the Ruby gem directory:
+
+```bash
+cd packages/ruby-routerbase
+ruby -Ilib test/client_test.rb
+gem build routerbase-client.gemspec
+```
+
 ## Example Guidelines
 
 - Keep examples small and runnable.

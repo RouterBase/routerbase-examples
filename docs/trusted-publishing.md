@@ -82,3 +82,31 @@ Before running:
 ## Link Policy
 
 Keep links natural and developer-focused. The first README link uses `[RouterBase](https://routerbase.com)`, and package metadata points to the RouterBase homepage.
+
+## RubyGems
+
+Workflow:
+
+```text
+.github/workflows/publish-rubygems.yml
+```
+
+Package:
+
+```text
+packages/ruby-routerbase
+```
+
+Before running:
+
+- Create a RubyGems API key with permission to push `routerbase-client`.
+- Add it to GitHub repository secrets as `RUBYGEMS_API_KEY`.
+- Run the `Publish RubyGems` workflow manually.
+
+Local verification:
+
+```bash
+cd packages/ruby-routerbase
+ruby -Ilib test/client_test.rb
+gem build routerbase-client.gemspec
+```

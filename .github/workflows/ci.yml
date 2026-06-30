@@ -20,6 +20,13 @@ jobs:
         with:
           go-version: "1.22"
           cache: false
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
       - run: npm run verify
       - run: go test ./...
         working-directory: packages/go-routerbase
+      - run: ruby -Ilib test/client_test.rb
+        working-directory: packages/ruby-routerbase
+      - run: gem build routerbase-client.gemspec
+        working-directory: packages/ruby-routerbase

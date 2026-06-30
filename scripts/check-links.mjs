@@ -4,6 +4,8 @@ const requiredFiles = [
   "README.md",
   "packages/python-routerbase/README.md",
   "packages/jsr-routerbase/README.md",
+  "packages/go-routerbase/README.md",
+  "packages/ruby-routerbase/README.md",
   "examples/docker/README.md"
 ];
 

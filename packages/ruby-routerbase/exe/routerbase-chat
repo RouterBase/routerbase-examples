@@ -1,0 +1,24 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "json"
+require "routerbase"
+
+prompt = ARGV.join(" ").strip
+
+if prompt.empty?
+  warn "Usage: routerbase-chat \"Write a short RouterBase tagline\""
+  exit 1
+end
+
+client = RouterBase::Client.new
+response = client.chat_completion(
+  messages: [
+    {
+      role: "user",
+      content: prompt
+    }
+  ]
+)
+
+puts response.fetch("choices").first.fetch("message").fetch("content")
