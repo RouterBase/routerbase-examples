@@ -113,3 +113,23 @@ Status:
 - PHP client, CLI, tests, and CI added.
 - GitHub release `v0.1.0` created.
 - Packagist package name check returned 404 before publishing.
+
+## Batch 7 - .NET / NuGet
+
+Create a standalone NuGet package repository with a real .NET client and no external runtime dependencies.
+
+Repository:
+
+- `https://github.com/RouterBase/routerbase-dotnet`
+
+Package:
+
+- `RouterBase.Client`
+
+Status:
+
+- GitHub repository created.
+- NuGet metadata added in `src/RouterBase.Client/RouterBase.Client.csproj`.
+- .NET client, console test project, CI, topics, and publish workflow added.
+- GitHub release `v0.1.0` created.
+- NuGet flat container package name check returned 404 before publishing.

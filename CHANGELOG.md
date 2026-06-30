@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.0 - 2026-06-30
+
+- Created the standalone `RouterBase/routerbase-dotnet` NuGet package repository.
+- Added .NET client, tests, NuGet-ready metadata, CI, topics, publish workflow, and release.
+- Linked the .NET package repository from the examples index.
+
 ## 0.4.0 - 2026-06-30
 
 - Created the standalone `RouterBase/routerbase-php` Composer package repository.

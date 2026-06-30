@@ -105,6 +105,7 @@ These companion packages are already published:
 - JSR package draft: `@routerbase/client`
 - RubyGems package draft: `routerbase-client`
 - Composer package repository: [RouterBase/routerbase-php](https://github.com/RouterBase/routerbase-php)
+- NuGet package repository: [RouterBase/routerbase-dotnet](https://github.com/RouterBase/routerbase-dotnet)
 
 ## Links
 
