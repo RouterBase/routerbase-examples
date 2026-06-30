@@ -28,6 +28,11 @@ Content goals:
 - Model listing helper.
 - Deno and modern TypeScript usage examples.
 
+Status:
+
+- Local dry run passes.
+- Manual GitHub Actions workflow added: `.github/workflows/publish-jsr.yml`.
+
 ## Batch 3 - PyPI
 
 Publish the Python package from `packages/python-routerbase`.
@@ -41,6 +46,12 @@ Content goals:
 - Minimal `RouterBase` client.
 - CLI entry point.
 - Project URLs that point to RouterBase docs and GitHub.
+
+Status:
+
+- Wheel and sdist build locally.
+- `twine check` passes.
+- Manual GitHub Actions workflow added: `.github/workflows/publish-pypi.yml`.
 
 ## Batch 4 - Docker
 
@@ -56,6 +67,11 @@ Content goals:
 - Environment-variable based configuration.
 - One command prompt execution.
 - Link back to RouterBase docs.
+
+Status:
+
+- Dockerfile added.
+- Manual GitHub Actions workflow added: `.github/workflows/publish-ghcr.yml`.
 
 ## Batch 5 - Language SDKs
 
