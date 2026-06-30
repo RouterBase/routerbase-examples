@@ -12,6 +12,7 @@ This repository is a practical starter kit for developers who want to test Route
 - `packages/go-routerbase`: a Go SDK starter with tests and a runnable example.
 - `packages/ruby-routerbase`: a RubyGems-ready client gem starter with tests and a CLI.
 - `examples/docker`: a tiny containerized prompt runner example.
+- API collections repository: [RouterBase/routerbase-api-collections](https://github.com/RouterBase/routerbase-api-collections).
 - `.github/workflows/ci.yml`: CI for Node and Python tests.
 - `docs`: rollout plan, publishing checklist, and maintenance notes.
 
@@ -109,6 +110,7 @@ These companion packages are already published:
 - Maven package repository: [RouterBase/routerbase-java](https://github.com/RouterBase/routerbase-java)
 - CLI repository: [RouterBase/routerbase-cli](https://github.com/RouterBase/routerbase-cli)
 - Homebrew tap: [RouterBase/homebrew-tap](https://github.com/RouterBase/homebrew-tap)
+- API collections: [RouterBase/routerbase-api-collections](https://github.com/RouterBase/routerbase-api-collections)
 
 ## Homebrew
 

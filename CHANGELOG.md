@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.8.0 - 2026-06-30
+
+- Created the standalone `RouterBase/routerbase-api-collections` repository.
+- Added OpenAPI, Postman, Bruno, and Insomnia collections with validation.
+- Linked the API collections repository from the examples index.
+
 ## 0.7.0 - 2026-06-30
 
 - Created the standalone `RouterBase/routerbase-cli` command-line client repository.

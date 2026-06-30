@@ -31,6 +31,7 @@ Use this checklist before publishing any RouterBase package or repository.
 - For Maven packages, run `mvn -B verify` and confirm source/javadoc artifacts are generated.
 - For Homebrew taps, run `brew audit`, `brew install`, and `brew test` against the formula.
 - For Docker images, build locally before pushing.
+- For API collections, validate OpenAPI, Postman, Bruno, and Insomnia exports and keep request variables documented.
 
 ## Maintenance
 

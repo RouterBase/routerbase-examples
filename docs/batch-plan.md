@@ -176,3 +176,26 @@ Status:
 - Formula pins the CLI `v0.1.0` source tarball and sha256.
 - Tap CI passes `brew audit`, `brew install`, and `brew test`.
 - Homebrew tap release `v0.1.0` created.
+
+## Batch 10 - API Collections
+
+Create importable request collections for developers who want to test RouterBase without writing code first.
+
+Repository:
+
+- `https://github.com/RouterBase/routerbase-api-collections`
+
+Formats:
+
+- OpenAPI 3.1
+- Postman
+- Bruno
+- Insomnia
+
+Status:
+
+- GitHub repository created.
+- Collection files added for `GET /models` and `POST /chat/completions`.
+- Validation script added with CI.
+- GitHub release `v0.1.0` created.
+- Manual submission to Postman Public API Network, Bruno sharing channels, and Insomnia community listings can follow after account setup.
