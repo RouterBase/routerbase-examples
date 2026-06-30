@@ -28,3 +28,14 @@ Source = "https://github.com/routerbase/routerbase-examples"
 
 [project.scripts]
 routerbase-chat = "routerbase.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/routerbase"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "README.md",
+  "pyproject.toml",
+  "src/routerbase/**/*.py",
+  "tests/**/*.py"
+]
