@@ -6,6 +6,10 @@ Repository:
 
 - `https://github.com/RouterBase/routerbase-cookbook`
 
+Site:
+
+- `https://routerbase.github.io/routerbase-cookbook/`
+
 Included assets:
 
 - Tutorials for using RouterBase as an OpenAI-compatible gateway.
@@ -14,6 +18,7 @@ Included assets:
 - Node.js and Python examples.
 - Dev.to and Hashnode article drafts.
 - Content calendar and review checklist.
+- GitHub Pages site with quickstart, API collections, and content plan pages.
 
 Validation:
 
@@ -21,6 +26,8 @@ Validation:
 - Node examples are tested without a live API key.
 - Markdown files are checked for RouterBase links, balanced code fences, and follow-up references.
 - GitHub Actions runs validation on every push and pull request.
+- GitHub Pages publishes from `main` and `/docs`.
+- The site homepage, quickstart page, API collections page, and sitemap returned HTTP 200 after enabling Pages.
 
 Publishing follow-up:
 

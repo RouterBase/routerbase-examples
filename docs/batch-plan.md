@@ -222,3 +222,27 @@ Status:
 - Topics added for cookbook, tutorials, API, and OpenAI-compatible discovery.
 - GitHub release `v0.1.0` created.
 - Manual article publication to Dev.to and Hashnode can follow after account login.
+
+## Batch 12 - Cookbook GitHub Pages
+
+Turn the cookbook repository into a browsable static documentation site.
+
+Site:
+
+- `https://routerbase.github.io/routerbase-cookbook/`
+
+Content:
+
+- Homepage with RouterBase request-flow visual.
+- Quickstart page for the OpenAI-compatible gateway pattern.
+- API collections page for Postman, Bruno, Insomnia, and OpenAPI.
+- Content plan page for Dev.to and Hashnode drafts.
+- Sitemap and robots file.
+
+Status:
+
+- Static site added under `RouterBase/routerbase-cookbook` at `/docs`.
+- GitHub Pages enabled from `main` and `/docs`.
+- Pages status returned `built`.
+- Homepage, quickstart, API collections page, and sitemap returned HTTP 200.
+- Cookbook release `v0.2.0` created.

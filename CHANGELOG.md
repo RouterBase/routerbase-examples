@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.10.0 - 2026-06-30
+
+- Added the public GitHub Pages site for `RouterBase/routerbase-cookbook`.
+- Verified the site, sitemap, and key pages at `https://routerbase.github.io/routerbase-cookbook/`.
+- Linked the published cookbook site from the examples index.
+
 ## 0.9.0 - 2026-06-30
 
 - Created the standalone `RouterBase/routerbase-cookbook` repository.

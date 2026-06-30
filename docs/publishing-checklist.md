@@ -33,6 +33,7 @@ Use this checklist before publishing any RouterBase package or repository.
 - For Docker images, build locally before pushing.
 - For API collections, validate OpenAPI, Postman, Bruno, and Insomnia exports and keep request variables documented.
 - For content assets, run link/content validation and keep article drafts useful enough to publish independently.
+- For static sites, verify the live page returns HTTP 200, the sitemap is reachable, and the first page contains the intended RouterBase link.
 
 ## Maintenance
 

@@ -14,6 +14,7 @@ This repository is a practical starter kit for developers who want to test Route
 - `examples/docker`: a tiny containerized prompt runner example.
 - API collections repository: [RouterBase/routerbase-api-collections](https://github.com/RouterBase/routerbase-api-collections).
 - Cookbook repository: [RouterBase/routerbase-cookbook](https://github.com/RouterBase/routerbase-cookbook).
+- Cookbook site: `https://routerbase.github.io/routerbase-cookbook/`.
 - `.github/workflows/ci.yml`: CI for Node and Python tests.
 - `docs`: rollout plan, publishing checklist, and maintenance notes.
 
@@ -113,6 +114,7 @@ These companion packages are already published:
 - Homebrew tap: [RouterBase/homebrew-tap](https://github.com/RouterBase/homebrew-tap)
 - API collections: [RouterBase/routerbase-api-collections](https://github.com/RouterBase/routerbase-api-collections)
 - Cookbook and article drafts: [RouterBase/routerbase-cookbook](https://github.com/RouterBase/routerbase-cookbook)
+- Cookbook site: `https://routerbase.github.io/routerbase-cookbook/`
 
 ## Homebrew
 
