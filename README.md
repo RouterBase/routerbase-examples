@@ -9,6 +9,7 @@ This repository is a practical starter kit for developers who want to test Route
 - `examples/node`: dependency-free Node.js examples using `fetch`.
 - `packages/python-routerbase`: a small Python SDK starter with tests and a CLI.
 - `packages/jsr-routerbase`: a JSR-ready TypeScript package draft.
+- `packages/go-routerbase`: a Go SDK starter with tests and a runnable example.
 - `examples/docker`: a tiny containerized prompt runner example.
 - `.github/workflows/ci.yml`: CI for Node and Python tests.
 - `docs`: rollout plan, publishing checklist, and maintenance notes.
@@ -62,6 +63,17 @@ response = client.chat_completion(
 print(response["choices"][0]["message"]["content"])
 ```
 
+## Go Example
+
+```go
+client := routerbase.NewClient(os.Getenv("ROUTERBASE_API_KEY"))
+response, err := client.ChatCompletion(context.Background(), routerbase.ChatCompletionRequest{
+    Messages: []routerbase.Message{
+        {Role: "user", Content: "Explain RouterBase in one sentence."},
+    },
+})
+```
+
 ## Published npm Packages
 
 These companion packages are already published:
@@ -71,6 +83,12 @@ These companion packages are already published:
 - [routerbase-openai-config](https://www.npmjs.com/package/routerbase-openai-config)
 - [routerbase-models-cli](https://www.npmjs.com/package/routerbase-models-cli)
 - [routerbase-prompt-runner](https://www.npmjs.com/package/routerbase-prompt-runner)
+
+## SDK Starters
+
+- Go module: `github.com/RouterBase/routerbase-examples/packages/go-routerbase`
+- Python package draft: `routerbase-client`
+- JSR package draft: `@routerbase/client`
 
 ## Links
 

@@ -24,6 +24,7 @@ Use this checklist before publishing any RouterBase package or repository.
 - For Python, run `python3 -m unittest discover -s packages/python-routerbase/tests`.
 - For npm packages, run `npm pack --dry-run`.
 - For PyPI packages, run `python3 -m build` in the package directory.
+- For Go modules, run `go test ./...` in the module directory and confirm pkg.go.dev can index the public module path.
 - For Docker images, build locally before pushing.
 
 ## Maintenance

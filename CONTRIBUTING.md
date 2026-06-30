@@ -16,6 +16,13 @@ This covers:
 - Python tests.
 - README link checks.
 
+Run Go checks from the Go module:
+
+```bash
+cd packages/go-routerbase
+go test ./...
+```
+
 ## Example Guidelines
 
 - Keep examples small and runnable.

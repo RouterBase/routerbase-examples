@@ -83,3 +83,10 @@ Add one SDK at a time only when it has real tests and examples:
 - Ruby gem.
 - .NET package for NuGet.
 - Java package for Maven Central.
+
+Status:
+
+- Go module added at `packages/go-routerbase`.
+- Go tests added and wired into CI.
+- Module path prepared for pkg.go.dev discovery:
+  `github.com/RouterBase/routerbase-examples/packages/go-routerbase`.
