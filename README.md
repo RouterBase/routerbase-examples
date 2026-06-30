@@ -13,6 +13,17 @@ This repository is a practical starter kit for developers who want to test Route
 - `.github/workflows/ci.yml`: CI for Node and Python tests.
 - `docs`: rollout plan, publishing checklist, and maintenance notes.
 
+## Container Image
+
+The Docker prompt runner is published through GitHub Container Registry:
+
+```bash
+docker run --rm \
+  -e ROUTERBASE_API_KEY="sk-rb-..." \
+  -e ROUTERBASE_PROMPT="Explain RouterBase in one concise sentence." \
+  ghcr.io/routerbase/routerbase-prompt-runner:latest
+```
+
 ## Quick Start
 
 ```bash
@@ -66,6 +77,10 @@ These companion packages are already published:
 - [RouterBase](https://routerbase.com)
 - [RouterBase docs](https://docs.routerbase.com/)
 - [Chat completions docs](https://docs.routerbase.com/api-reference/chat-completions)
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for local checks and example guidelines.
 
 ## License
 

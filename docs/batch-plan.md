@@ -72,6 +72,7 @@ Status:
 
 - Dockerfile added.
 - Manual GitHub Actions workflow added: `.github/workflows/publish-ghcr.yml`.
+- GHCR publish workflow completed successfully on 2026-06-30.
 
 ## Batch 5 - Language SDKs
 
