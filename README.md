@@ -107,6 +107,15 @@ These companion packages are already published:
 - Composer package repository: [RouterBase/routerbase-php](https://github.com/RouterBase/routerbase-php)
 - NuGet package repository: [RouterBase/routerbase-dotnet](https://github.com/RouterBase/routerbase-dotnet)
 - Maven package repository: [RouterBase/routerbase-java](https://github.com/RouterBase/routerbase-java)
+- CLI repository: [RouterBase/routerbase-cli](https://github.com/RouterBase/routerbase-cli)
+- Homebrew tap: [RouterBase/homebrew-tap](https://github.com/RouterBase/homebrew-tap)
+
+## Homebrew
+
+```bash
+brew tap RouterBase/tap
+brew install routerbase
+```
 
 ## Links
 

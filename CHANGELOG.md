@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.0 - 2026-06-30
+
+- Created the standalone `RouterBase/routerbase-cli` command-line client repository.
+- Created the standalone `RouterBase/homebrew-tap` repository.
+- Added Homebrew formula, audit/install/test CI, topics, releases, and central docs.
+
 ## 0.6.0 - 2026-06-30
 
 - Created the standalone `RouterBase/routerbase-java` Maven package repository.

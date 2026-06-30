@@ -1,6 +1,6 @@
 {
   "name": "routerbase-examples",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Examples, SDK starters, and publishing assets for RouterBase.",
   "private": true,
   "type": "module",

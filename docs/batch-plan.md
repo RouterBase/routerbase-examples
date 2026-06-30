@@ -153,3 +153,26 @@ Status:
 - Java client, Jackson mapping, JUnit tests, CI, topics, and release added.
 - GitHub release `v0.1.0` created.
 - Maven Central search returned 0 results before publishing.
+
+## Batch 9 - CLI / Homebrew
+
+Create a real command-line install path through Homebrew.
+
+Repositories:
+
+- `https://github.com/RouterBase/routerbase-cli`
+- `https://github.com/RouterBase/homebrew-tap`
+
+Packages:
+
+- CLI command: `routerbase`
+- Homebrew formula: `routerbase`
+
+Status:
+
+- CLI repository created with Ruby standard-library implementation.
+- CLI tests and release `v0.1.0` created.
+- Homebrew tap repository created.
+- Formula pins the CLI `v0.1.0` source tarball and sha256.
+- Tap CI passes `brew audit`, `brew install`, and `brew test`.
+- Homebrew tap release `v0.1.0` created.

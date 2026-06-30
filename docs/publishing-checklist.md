@@ -29,6 +29,7 @@ Use this checklist before publishing any RouterBase package or repository.
 - For Composer packages, run `composer validate --strict`, `composer lint`, and `composer test`.
 - For NuGet packages, run `dotnet restore`, `dotnet build`, the test project, and `dotnet pack`.
 - For Maven packages, run `mvn -B verify` and confirm source/javadoc artifacts are generated.
+- For Homebrew taps, run `brew audit`, `brew install`, and `brew test` against the formula.
 - For Docker images, build locally before pushing.
 
 ## Maintenance
