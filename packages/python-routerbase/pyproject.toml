@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "routerbase-client"
+version = "0.1.0"
+description = "A small Python client for the RouterBase OpenAI-compatible API."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+  { name = "RouterBase contributors" }
+]
+keywords = ["routerbase", "openai-compatible", "ai", "llm"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[project.urls]
+Homepage = "https://routerbase.com"
+Documentation = "https://docs.routerbase.com/"
+Source = "https://github.com/routerbase/routerbase-examples"
+
+[project.scripts]
+routerbase-chat = "routerbase.cli:main"

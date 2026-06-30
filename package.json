@@ -1,0 +1,27 @@
+{
+  "name": "routerbase-examples",
+  "version": "0.1.0",
+  "description": "Examples, SDK starters, and publishing assets for RouterBase.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo:node": "node examples/node/fetch-chat.js",
+    "test:node": "node --test examples/node/test/*.test.js scripts/*.test.mjs",
+    "test:python": "PYTHONPATH=packages/python-routerbase/src python3 -m unittest discover -s packages/python-routerbase/tests",
+    "test": "npm run test:node && npm run test:python",
+    "check:links": "node scripts/check-links.mjs",
+    "verify": "npm test && npm run check:links"
+  },
+  "keywords": [
+    "routerbase",
+    "openai-compatible",
+    "ai",
+    "llm",
+    "examples"
+  ],
+  "homepage": "https://routerbase.com",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

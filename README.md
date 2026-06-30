@@ -1,0 +1,72 @@
+# RouterBase Examples
+
+[RouterBase](https://routerbase.com) is an OpenAI-compatible API gateway for calling many AI models from one base URL: `https://routerbase.com/v1`.
+
+This repository is a practical starter kit for developers who want to test RouterBase in Node.js, Python, Docker, and modern TypeScript runtimes.
+
+## What Is Inside
+
+- `examples/node`: dependency-free Node.js examples using `fetch`.
+- `packages/python-routerbase`: a small Python SDK starter with tests and a CLI.
+- `packages/jsr-routerbase`: a JSR-ready TypeScript package draft.
+- `examples/docker`: a tiny containerized prompt runner example.
+- `.github/workflows/ci.yml`: CI for Node and Python tests.
+- `docs`: rollout plan, publishing checklist, and maintenance notes.
+
+## Quick Start
+
+```bash
+export ROUTERBASE_API_KEY="sk-rb-..."
+npm run demo:node
+```
+
+Run local checks:
+
+```bash
+npm run verify
+```
+
+## Node.js Fetch Example
+
+```js
+import { chatCompletion } from "./examples/node/src/routerbase-client.js";
+
+const response = await chatCompletion({
+  apiKey: process.env.ROUTERBASE_API_KEY,
+  messages: [{ role: "user", content: "Explain RouterBase in one sentence." }]
+});
+
+console.log(response.choices[0].message.content);
+```
+
+## Python Example
+
+```python
+from routerbase import RouterBase
+
+client = RouterBase()
+response = client.chat_completion(
+    messages=[{"role": "user", "content": "Explain RouterBase in one sentence."}]
+)
+print(response["choices"][0]["message"]["content"])
+```
+
+## Published npm Packages
+
+These companion packages are already published:
+
+- [routerbase-quickstart](https://www.npmjs.com/package/routerbase-quickstart)
+- [create-routerbase-app](https://www.npmjs.com/package/create-routerbase-app)
+- [routerbase-openai-config](https://www.npmjs.com/package/routerbase-openai-config)
+- [routerbase-models-cli](https://www.npmjs.com/package/routerbase-models-cli)
+- [routerbase-prompt-runner](https://www.npmjs.com/package/routerbase-prompt-runner)
+
+## Links
+
+- [RouterBase](https://routerbase.com)
+- [RouterBase docs](https://docs.routerbase.com/)
+- [Chat completions docs](https://docs.routerbase.com/api-reference/chat-completions)
+
+## License
+
+MIT
