@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.0 - 2026-06-30
+
+- Created the standalone `RouterBase/routerbase-cookbook` repository.
+- Added tutorials, article drafts, Node/Python examples, content calendar, CI, topics, and release.
+- Linked the cookbook repository from the examples index.
+
 ## 0.8.0 - 2026-06-30
 
 - Created the standalone `RouterBase/routerbase-api-collections` repository.

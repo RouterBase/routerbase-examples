@@ -199,3 +199,26 @@ Status:
 - Validation script added with CI.
 - GitHub release `v0.1.0` created.
 - Manual submission to Postman Public API Network, Bruno sharing channels, and Insomnia community listings can follow after account setup.
+
+## Batch 11 - Cookbook / Content Assets
+
+Create a standalone tutorial repository that can support natural content-platform links without relying on thin package pages.
+
+Repository:
+
+- `https://github.com/RouterBase/routerbase-cookbook`
+
+Content:
+
+- Practical tutorials for OpenAI-compatible RouterBase usage.
+- Node.js and Python examples with local tests.
+- Dev.to and Hashnode article drafts.
+- Content calendar and review checklist.
+
+Status:
+
+- GitHub repository created.
+- Content validation script and CI added.
+- Topics added for cookbook, tutorials, API, and OpenAI-compatible discovery.
+- GitHub release `v0.1.0` created.
+- Manual article publication to Dev.to and Hashnode can follow after account login.

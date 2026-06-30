@@ -32,6 +32,7 @@ Use this checklist before publishing any RouterBase package or repository.
 - For Homebrew taps, run `brew audit`, `brew install`, and `brew test` against the formula.
 - For Docker images, build locally before pushing.
 - For API collections, validate OpenAPI, Postman, Bruno, and Insomnia exports and keep request variables documented.
+- For content assets, run link/content validation and keep article drafts useful enough to publish independently.
 
 ## Maintenance
 
