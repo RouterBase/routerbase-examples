@@ -246,3 +246,26 @@ Status:
 - Pages status returned `built`.
 - Homepage, quickstart, API collections page, and sitemap returned HTTP 200.
 - Cookbook release `v0.2.0` created.
+
+## Batch 13 - API Reference GitHub Pages
+
+Turn the API collections repository into a browsable reference site.
+
+Site:
+
+- `https://routerbase.github.io/routerbase-api-collections/`
+
+Content:
+
+- Homepage for OpenAPI, Postman, Bruno, and Insomnia collection entry points.
+- Endpoint reference for `GET /models` and `POST /chat/completions`.
+- Import guide for API client workspaces.
+- Sitemap and robots file.
+
+Status:
+
+- Static site added under `RouterBase/routerbase-api-collections` at `/docs`.
+- GitHub Pages enabled from `main` and `/docs`.
+- Pages status returned `built`.
+- Homepage, endpoint reference, import guide, and sitemap returned HTTP 200.
+- API collections release `v0.2.0` created.

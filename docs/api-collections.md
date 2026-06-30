@@ -6,6 +6,10 @@ Repository:
 
 - `https://github.com/RouterBase/routerbase-api-collections`
 
+Site:
+
+- `https://routerbase.github.io/routerbase-api-collections/`
+
 Included formats:
 
 - OpenAPI 3.1: `openapi/routerbase.openapi.json`
@@ -23,6 +27,9 @@ Validation:
 - The repository has `npm run verify`.
 - GitHub Actions runs validation on every push and pull request.
 - The first release is `v0.1.0`.
+- The API reference site was added in `v0.2.0`.
+- GitHub Pages publishes from `main` and `/docs`.
+- The site homepage, endpoint reference, import guide, and sitemap returned HTTP 200 after enabling Pages.
 
 Publishing follow-up:
 

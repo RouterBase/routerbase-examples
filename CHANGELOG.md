@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.11.0 - 2026-06-30
+
+- Added the public GitHub Pages API reference site for `RouterBase/routerbase-api-collections`.
+- Verified the site, endpoint reference, import guide, and sitemap at `https://routerbase.github.io/routerbase-api-collections/`.
+- Linked the published API reference site from the examples index.
+
 ## 0.10.0 - 2026-06-30
 
 - Added the public GitHub Pages site for `RouterBase/routerbase-cookbook`.
