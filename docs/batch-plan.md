@@ -133,3 +133,23 @@ Status:
 - .NET client, console test project, CI, topics, and publish workflow added.
 - GitHub release `v0.1.0` created.
 - NuGet flat container package name check returned 404 before publishing.
+
+## Batch 8 - Java / Maven Central
+
+Create a standalone Maven package repository with a typed Java client and standard Maven metadata.
+
+Repository:
+
+- `https://github.com/RouterBase/routerbase-java`
+
+Package:
+
+- `com.routerbase:routerbase-client`
+
+Status:
+
+- GitHub repository created.
+- Maven metadata added in `pom.xml`.
+- Java client, Jackson mapping, JUnit tests, CI, topics, and release added.
+- GitHub release `v0.1.0` created.
+- Maven Central search returned 0 results before publishing.

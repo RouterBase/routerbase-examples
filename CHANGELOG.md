@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.0 - 2026-06-30
+
+- Created the standalone `RouterBase/routerbase-java` Maven package repository.
+- Added Java client, Jackson mapping, JUnit tests, Maven metadata, CI, topics, and release.
+- Linked the Java package repository from the examples index.
+
 ## 0.5.0 - 2026-06-30
 
 - Created the standalone `RouterBase/routerbase-dotnet` NuGet package repository.
