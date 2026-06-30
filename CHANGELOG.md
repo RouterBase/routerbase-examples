@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.0 - 2026-06-30
+
+- Created the standalone `RouterBase/routerbase-php` Composer package repository.
+- Added PHP client, CLI, tests, Packagist-ready metadata, CI, topics, and release.
+- Linked the PHP package repository from the examples index.
+
 ## 0.3.0 - 2026-06-30
 
 - Added a RubyGems-ready `routerbase-client` gem starter.

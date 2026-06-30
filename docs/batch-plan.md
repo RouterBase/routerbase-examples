@@ -93,3 +93,23 @@ Status:
 - Ruby gem starter added at `packages/ruby-routerbase`.
 - Ruby tests and gem build added to CI.
 - Manual RubyGems publish workflow added: `.github/workflows/publish-rubygems.yml`.
+
+## Batch 6 - PHP / Packagist
+
+Create a standalone Composer package repository instead of burying PHP under the examples monorepo.
+
+Repository:
+
+- `https://github.com/RouterBase/routerbase-php`
+
+Package:
+
+- `routerbase/client`
+
+Status:
+
+- GitHub repository created.
+- Composer metadata added at repository root.
+- PHP client, CLI, tests, and CI added.
+- GitHub release `v0.1.0` created.
+- Packagist package name check returned 404 before publishing.

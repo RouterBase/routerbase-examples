@@ -26,6 +26,7 @@ Use this checklist before publishing any RouterBase package or repository.
 - For PyPI packages, run `python3 -m build` in the package directory.
 - For Go modules, run `go test ./...` in the module directory and confirm pkg.go.dev can index the public module path.
 - For Ruby gems, run `ruby -Ilib test/client_test.rb` and `gem build routerbase-client.gemspec`.
+- For Composer packages, run `composer validate --strict`, `composer lint`, and `composer test`.
 - For Docker images, build locally before pushing.
 
 ## Maintenance

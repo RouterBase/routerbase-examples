@@ -104,6 +104,7 @@ These companion packages are already published:
 - PyPI package draft: `routerbase-client`
 - JSR package draft: `@routerbase/client`
 - RubyGems package draft: `routerbase-client`
+- Composer package repository: [RouterBase/routerbase-php](https://github.com/RouterBase/routerbase-php)
 
 ## Links
 
